@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto com Gulp</title>
+
+  <!-- CSS gerado pelo Gulp (vem do SASS) -->
+  <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Meu Projeto com Gulp</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Build automático com Gulp</h2>
+      <p>
+        Este layout está usando um CSS que foi compilado de SASS pelo Gulp.
+        Sempre que eu editar o arquivo SCSS, o CSS é atualizado sozinho.
+      </p>
+      <button id="btn">Clique aqui</button>
+    </div>
+
+    <div class="card">
+      <h2>JavaScript minificado</h2>
+      <p>
+        O JavaScript também passa pelo Gulp e vira um arquivo único e
+        otimizado dentro da pasta <strong>dist/js</strong>.
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    Feito para o exercício de Gulp
+  </footer>
+
+  <!-- JS gerado pelo Gulp -->
+  <script src="dist/js/main.min.js"></script>
+</body>
+</html>
